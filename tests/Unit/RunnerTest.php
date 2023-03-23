@@ -1,12 +1,14 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace CurrencyConversion\Unit;
 
 use CurrencyConversion\Runner\Runner;
 use CurrencyConversion\Services\DollarService;
 use PHPUnit\Framework\TestCase;
 
-class RunnerTest extends TestCase
+final class RunnerTest extends TestCase
 {
     public function testRun()
     {

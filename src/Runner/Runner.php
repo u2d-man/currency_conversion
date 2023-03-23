@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace CurrencyConversion\Runner;
 
 use CurrencyConversion\Services\DollarService;
