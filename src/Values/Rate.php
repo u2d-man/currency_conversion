@@ -12,11 +12,8 @@ class Rate
     // inputJpy is allow up to 9 digits.
     const MAX_LENGTH = 9;
 
-    private int $inputJpy;
-
-    public function __construct(int $inputJpy)
+    public function __construct(private int $inputJpy)
     {
-        $this->inputJpy = $inputJpy;
     }
 
     public function value(): int

@@ -8,10 +8,8 @@ use CurrencyConversion\Services\DollarService;
 
 class Runner
 {
-    private DollarService $dollarService;
-
-    public function __construct($dollarService) {
-        $this->dollarService = $dollarService;
+    public function __construct(private DollarService $dollarService) 
+    {
     }
 
     public function run()
