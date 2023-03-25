@@ -15,4 +15,4 @@ $convertValue = (int) $argv[1];
 $dollarService = new DollarService($convertValue);
 $runner = new Runner($dollarService);
 
-printf("Converted $convertValue JPY to USD. output: $%f", $runner->run());
+printf("Converted $convertValue USD to JPY. output: ¥%f", $runner->run());
